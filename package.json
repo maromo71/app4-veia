@@ -1,0 +1,42 @@
+{
+  "name": "app4-veia",
+  "version": "1.0.0",
+  "description": "Jogo da Véia",
+  "main": "main.js",
+  "win": {
+    "icon": "img/icon.ico"
+  },
+  "build": {
+    "productName": "Jodo da Véia",
+    "appId": "app4-veia",
+    "directories": {
+      "buildResources": "resources"
+    },
+    
+    "win": {
+      "asar": true,
+      "target": "nsis",
+      "icon": "img/icon.ico"
+    },
+    "nsis": {
+      "installerIcon": "img/icon.ico",
+      "installerHeaderIcon": "img/icon.ico"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --dir",
+    "dist": "electron-builder --win"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {
+    "electron-alert": "^0.1.11"
+  }
+}

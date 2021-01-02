@@ -1,0 +1,58 @@
+body{
+    background-color: darkslategrey;
+}
+
+.bodyjogada {
+    background-color: rgb(239, 245, 245);
+}
+.destaque{
+    margin: 10px auto;
+    display: inline-flexbox;
+    text-align: center;
+    align-content: center;
+    vertical-align: bottom;
+    height: 40px;
+}
+.destaque h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(251, 251, 251);
+}
+.destaque span {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(212, 212, 212);
+}
+.botao {
+    display: block;
+    margin: 10px auto;
+    min-width: 60px;
+    min-height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+}
+.jogadafalha{
+    margin: 10px auto;
+    display: inline-flexbox;
+    text-align: center;
+    align-content: center;
+    vertical-align: bottom;
+    height: 40px;
+}
+.jogadafalha h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(200, 16, 16);
+}
+.jogadafalha span {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(200, 16, 16);
+}
+.caixa {
+    margin: 0px auto;
+    text-align: center;
+    align-content: center;
+    font-size:medium;
+    font-weight: bolder;
+    color:floralwhite;
+}
